@@ -8,11 +8,8 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - data:/data
-      - players:/players
+      # - ./data:/data
+      # - ./players:/players
     stdin_open: true
     tty: true
     restart: unless-stopped
-volumes:
-  data: {}
-  players: {}
