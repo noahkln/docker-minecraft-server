@@ -11,4 +11,5 @@ personal-build-and-develop.*
 docker-compose.yml
 
 # Include template files
-!*.template*
+!*.template
+!*.template.*
