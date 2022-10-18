@@ -1,6 +1,10 @@
 .vscode
+
 /data/
 /players/
+/worlds/
+/modpack/
+
 /.idea/
 *.iml
 /gh-md-toc
